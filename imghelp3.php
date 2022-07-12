@@ -2,7 +2,6 @@
 session_start();
 $user_id = $_SESSION['user_id'];
 $name = $_SESSION['name'];
-
 $con = mysqli_connect('', '', '');
 
 mysqli_select_db($con, 'elmst');
